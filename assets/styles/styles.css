@@ -3,7 +3,7 @@
 /*********** Global Styles********/
 
 body, html {
-		background-color: #E3E3E3;
+		/**background-color: #E3E3E3;**/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -12,7 +12,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .wrapper {
-		background: #E3E3E3;
+		background: #0cf;
+
 }
 
 .img-circle {
@@ -33,6 +34,9 @@ h1, h2, h3, h4, h5, h6 {
 		padding: .8em 2.1em;
 }
 
+}
+
+
 .my-button:hover {
 	cursor: pointer;
 	padding: .8em 2.7em;
@@ -45,6 +49,13 @@ h1, h2, h3, h4, h5, h6 {
   outline: 0;
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+
+.bckg-image {
+	background: url(assets/images/labs.jpg)no-repeat center center fixed;-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 /*#my-modal {
@@ -60,12 +71,18 @@ h1, h2, h3, h4, h5, h6 {
 }*/
 
 /**********************************/
+/** favicons **/
 
+.fi {
+
+	background-color: blue;
+	color: blue;
+}
 
 /*** thin bar ***/
 
 .thin-bar {
-		border-bottom: 5px solid #F33F12;
+		border-bottom: 5px solid #0cf;
 }
 
 
@@ -74,8 +91,11 @@ h1, h2, h3, h4, h5, h6 {
 #about {
 		margin-top: 10em;
 		border: 1px solid #eee;
-		background-color: white;
+		z-index: 2
+		/**background-color: white;**/
 		padding-bottom: 1em;
+		background-image: url(assets/images/labs.jpg); 
+		  
 }
 
 #about img {
@@ -111,16 +131,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cta .cta-button {
-		color: #cc4b37;
+		color: #0cf;
 		text-transform: uppercase;
-		border: 2px solid rgba(255, 103, 68, 0.91);
+		border: 2px solid #0cf;
 		border-radius: 50px;
 		background: white;
 }
 
 .cta .cta-button:hover, .cta .cta-button:focus {
 		box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
-		background-color: rgba(255, 103, 68, 0.91);
+		background-color: #0cf;
 		color: white;
 }
 
@@ -131,7 +151,8 @@ h1, h2, h3, h4, h5, h6 {
 .fa {
 	font-size: 1.2em;
 	padding: 0.1em 0.4em;
-	color: #8a8a8a;
+	color:#FFF;
+	font-size:48px;
 }
 
 .fa:hover {
@@ -140,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*** Experience ***/
 #experience {
-	background-color: #4c6d86;
+	background-color:  #0cf;
 	padding: 6em 4em 5.6em;
 }
 
@@ -179,12 +200,16 @@ h1, h2, h3, h4, h5, h6 {
 /*** work ***/
 #work {
 	padding: 6em 4em 3em;
-	background-color: #fff;
+	background-color: #2a6592;
 }
 
 #work h2 {
-	color: #FF6945;
+	color: #0cf;
 	margin-bottom: .7em;
+}
+.head {
+		color: #0cf;
+
 }
 
 
@@ -199,7 +224,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .details h3 {
-	color: #738182;
+	color: #0cf;
 	text-transform: uppercase;
 }
 
@@ -226,28 +251,31 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .details a, .details a:link, .details a:active{
-		color: rgba(255, 103, 68, 0.91);
-		border: 2px solid rgba(255, 103, 68, 0.91) !important;
+		color: #0cf;
+		border: 2px solid #0cf !important;
 		background-color: #fff;
 }
 
 .details a:hover, .details a:focus {
 		/*box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);*/
-		background-color: rgba(255, 103, 68, 0.91) !important;
+		background-color: #0cf !important;
 		color: #fff;
 }
 
 /*** teaching ***/
 #teaching {
 	padding: 6em 4em 3em;
+	background-size: cover;
+	background: #000000;
+
 }
 
 #teaching h2 {
-	color: #595959;
+	color: #0cf;
 }
 
 #teaching .tag-line {
-	color: #848282;
+	color: #0cf;
 	font-size: 1.4em;
 }
 
@@ -279,7 +307,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*** Footer Call-to-action ***/
 #footer-cta {
-	background-color: rgba(255, 103, 68, 0.91);
+	background-color:  #0cf;
 	padding: 6em 4em 5.6em;
 }
 
@@ -306,7 +334,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #footer-cta a:hover {
 	background: #fff;
-	color: rgba(255, 103, 68, 0.91);
+	color: #0cf;
 	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
 }
 
@@ -314,10 +342,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #footer {
 	padding: 5em 4em 2em;
+	background: #000000
 }
 
 #footer #logo {
-	background-color: rgba(255, 103, 68, 0.91);
+	background-color:  #0cf;
 	border-radius: 50%;
 	color: #fff;
 	padding: .4em;
